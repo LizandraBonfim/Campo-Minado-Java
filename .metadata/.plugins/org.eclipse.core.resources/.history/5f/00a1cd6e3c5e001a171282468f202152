@@ -1,0 +1,66 @@
+package br.com.cod3r.cm.visao;
+
+import java.awt.Color;
+
+import javax.swing.JButton;
+
+import br.com.cod3r.cm.modelo.Campo;
+import br.com.cod3r.cm.modelo.CampoEvento;
+import br.com.cod3r.cm.modelo.CampoObservador;
+
+@SuppressWarnings("serial")
+public class BotaoCampo extends JButton implements CampoObservador{
+	
+	private Campo campo;
+	private final Color BG_PADRAO = new Color(184,184,184);
+	private final Color BG_MARCADO new Color(184,184,184);
+	private final Color BG_EXPLODIR = new Color(184,184,184);
+	private final Color TEXTO = new Color(184,184,184);
+	
+	public BotaoCampo(Campo campo) {
+		// TODO Auto-generated constructor stub
+		this.campo = campo;
+		setBackground(bg);
+		campo.registrarObservador(this);
+		
+		
+		
+	}
+
+	@Override
+	public void eventoOcorreu(Campo campo, CampoEvento evento) {
+		// TODO Auto-generated method stub
+		switch (evento) {
+		case ABRIR:
+			aplicarEstiloAbrir();
+			break;
+			
+		case MARCAR:
+			aplicarEstiloMarcar();
+			break;
+			
+		case EXPLODIR:
+			aplicarEstiloExplodir();
+			break;
+
+		default:
+			break;
+		}
+	}
+
+	private void aplicarEstiloExplodir() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private void aplicarEstiloMarcar() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private void aplicarEstiloAbrir() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

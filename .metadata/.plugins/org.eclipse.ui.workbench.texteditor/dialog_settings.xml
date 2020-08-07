@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="448"/>
+		<item key="DIALOG_Y_ORIGIN" value="229"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="reinici"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="reinici"/>
+			<item value="reini"/>
+			<item value="mostrar"/>
+			<item value="setab"/>
+			<item value="vizinha"/>
+			<item value="minas"/>
+			<item value="adicionar"/>
+			<item value="marcad"/>
+			<item value="isMarcado"/>
+			<item value="ismarcado"/>
+			<item value="alterna"/>
+			<item value="toString"/>
+			<item value="marcado"/>
+			<item value="alternarMarcacao"/>
+			<item value="alter"/>
+		</list>
+		<list key="replacehistory">
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="870"/>
+		<item key="DIALOG_Y_ORIGIN" value="86"/>
+		<item key="DIALOG_WIDTH" value="313"/>
+		<item key="DIALOG_HEIGHT" value="410"/>
+		<item key="DIALOG_FONT_NAME" value="1|Open Sans|9.0|0|GTK|1|"/>
+	</section>
+</section>

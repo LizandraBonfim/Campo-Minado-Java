@@ -1,0 +1,17 @@
+package Generics;
+
+public class ObjetoTeste {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		CaixaObjeto caixaA = new CaixaObjeto();
+		
+		caixaA.aguardar(3.2);
+		
+		Integer coisa = (Integer) caixaA.abrir();
+		
+		System.out.println(coisa);
+	}
+
+}

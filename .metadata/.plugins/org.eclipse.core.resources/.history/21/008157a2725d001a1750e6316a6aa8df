@@ -1,0 +1,15 @@
+package br.com.cod3r.cm.modelo;
+
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+public class CampoTeste {
+	
+	private Campo campo = new Campo(3,3);
+
+	void testeVizinhoReal() {
+		Campo vizinho = new Campo(3, 2);
+		boolean resultado = campo.AdicionarVizinho(vizinho);
+		
+		assertTrue(resultado);
+	}
+}

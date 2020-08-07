@@ -1,0 +1,7 @@
+package CaixaObjeto;
+
+public class CaixaObjetoTeste {
+
+	 Caixa caixaA = new Caixa();
+	 caixaA.aguardar();
+}

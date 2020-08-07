@@ -1,0 +1,18 @@
+INDEX VERSION 1.131+/home/liz/Projeto-CampoMinado/.metadata/.plugins/org.eclipse.jdt.core
+4116637673.index
+1985779995.index
+2110546320.index
+1221555177.index
+87439912.index
+1044393357.index
+3841786866.index
+3941993898.index
+3184454371.index
+4227481704.index
+2076951439.index
+646308851.index
+3105398197.index
+4065985905.index
+1690443036.index
+84424301.index
+1055328627.index
